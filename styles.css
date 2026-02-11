@@ -1,0 +1,68 @@
+.container{
+    width:500px;
+    height: 830px;
+    margin-left: 5%;
+    border:3px solid black;
+    border-radius: 20px;
+    font-size:35px;
+    font-weight:bold;
+    background-color: rgb(252, 252, 252,0.4);
+}
+.right{
+    width:500px;
+    height: 830px;
+    margin-left: 5%;
+    border:3px solid black;
+    border-radius: 20px;
+    font-size:25px;
+    font-weight:bold;
+    background-color: rgb(252, 252, 252,0.4);
+    margin-top:-830px;
+    margin-left:1000px;
+}
+
+button{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    width: 100px;
+    height: 60px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+body{
+    background:linear-gradient(to bottom,#6addf7,#ffffff) ;
+    background-repeat: no-repeat;
+}
+
+.container button:hover {
+    background-color: #000000;
+}
+footer img {
+    position: absolute;
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add a slight shadow */
+    margin-top: -1000px;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.event-buttons {
+    display: inline-block;
+    margin-left: 10px; /* Adds spacing from text */
+}
+
+.event-buttons button {
+    margin-right: 5px; /* Adds spacing between buttons */
+}
+
+
+
